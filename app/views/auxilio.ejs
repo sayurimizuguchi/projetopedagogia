@@ -1,0 +1,69 @@
+<html>
+    <head>
+    <title>Como Jogar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styleHowTo.css" rel="stylesheet" type="text/css">
+    </head>
+    <script>
+    $(document).ready( function(){
+        $('#btn_sair').click(function(){
+			window.location.href = '/logout';
+		});
+				
+		$('#btn_menu').click(function(){
+			window.location.href = '/menu';
+		});
+	});
+    </script>
+        <body>
+        <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+                <button class="btn btn-primary" id="btn_sair" style="background-color: #28a745;">Sair</button>
+                <button class="btn" id="btn_menu">Menu</button>
+            </div>
+          </div>
+        </div>
+ <section class="steps steps-area">
+        <div class="container">
+            <!-- title-section -->
+            <ul class="timeline">
+                <li class="timeline-box wow fadeInLeft">
+                    <i class="icon-layers"></i>
+                    <p class="timeline-title">1º Passo</p>
+                    <p class="timeline-details">Ler todo o conteúdo do <a href="/ajuda">Ajuda</a> no Menu principal.</p>
+                    <span>1</span>
+                </li>
+                <li class="timeline-box wow fadeInRight">
+                    <i class="icon-chat"></i>
+                    <p class="timeline-title">2º Passo</p>
+                    <p class="timeline-details">Inicie o Jogo, clicando em <a href="/questions">Jogo de Questões</a>. E divirta-se</p>
+                    <span>2</span>
+                </li>
+                <li class="timeline-box  wow fadeInLeft">
+                    <i class="icon-tools"></i>
+                    <p class="timeline-title">3º Passo</p>
+                    <p class="timeline-details">Não deixe de marcar nenhuma questão. No final, sua pontuação será exibida na tela do Jogo. Você poderá Jogar Novamente clicando em Repetir.</p>
+                    <span>3</span>
+                </li>
+                <li class="timeline-box wow fadeInRight">
+                    <i class="icon-trophy"></i>
+                    <p class="timeline-title">4º Passo</p>
+                    <p class="timeline-details">Acompanhe o <a href="/ranking">Ranking</a> de Jogadores para descobrir como estão seus colegas no jogo! </p>
+                    <span>4</span>
+                </li>
+            </ul>
+        </div>
+        <!-- .container -->
+
+
+            </div>                     
+            <!-- End container -->                     
+        </section>               
+        </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    background: url("../img/ranking_kids_one.png") no-repeat;
+    background-position: bottom center;
+}
+
+.notice {
+    background: #f7f7f7;
+    border-top: 2px solid #808080;
+    display: flex;
+    color: hsl(0, 0%, 25%);
+    font-size: .9em;
+    line-height: 1.4;
+    margin: 1em auto;
+    > .icon {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 3.4em;
+    }
+    > p {
+        flex: 1;
+        margin: 0;				
+        padding: 1em 1em .9em .2em;
+    }
+    &.info {
+        border-top-color: hsl(198, 85%, 59%);
+        > .icon {
+            path {
+                fill: hsl(198, 85%, 59%);
+            }
+        }
+    }
+    &.success {
+        border-top-color: hsl(151, 74%, 53%);
+        > .icon {
+            path {
+                fill: hsl(151, 74%, 53%);
+            }
+        }
+    }
+    &.experimental {
+        border-top-color: hsl(267, 100%, 71%);
+        > .icon {
+            path {
+                fill: hsl(267, 100%, 71%);
+            }
+        }
+    }
+    &.warning {
+        border-top-color: hsl(40, 96%, 56%);
+        > .icon {
+            path {
+                fill: hsl(40, 96%, 56%);
+            }
+        }
+    }
+    &.danger {
+        border-top-color: hsl(9, 85%, 59%);
+        > .icon {
+            path {
+                fill: hsl(9, 85%, 59%);
+            }
+        }
+    }
+}

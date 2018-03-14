@@ -1,0 +1,16 @@
+#btn_voltar {
+    position: absolute;
+    left: 100px;
+    top: 16px;
+    background-color: #28a745;
+}
+
+#btn_confirmar {
+    background-color: #28a745;
+}
+
+body {
+        background: url("../img/ranking_kids_one.png") no-repeat;
+        background-position: bottom center;
+        background-size: 660px 250px;
+}
